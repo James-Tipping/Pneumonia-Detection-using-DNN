@@ -1,0 +1,86 @@
+{
+    "model_1_fully_dense": {
+        "precision": 0.6231884057971014,
+        "recall": 1.0,
+        "f_score": 0.7678571428571429,
+        "accuracy": 0.6231883764266968,
+        "true_negative_rate": 0.0
+    },
+    "model_2_convolutional": {
+        "precision": 0.7235494880546075,
+        "recall": 0.986046511627907,
+        "f_score": 0.8346456692913385,
+        "accuracy": 0.7565217614173889,
+        "true_negative_rate": 0.3769230842590332
+    },
+    "model_3_CNN_augmentation_dropout_weighted": {
+        "precision": 0.6991150442477876,
+        "recall": 0.7348837209302326,
+        "f_score": 0.7165532879818595,
+        "accuracy": 0.6376811861991882,
+        "true_negative_rate": 0.4769230782985687
+    },
+    "model_4_Medium_CNN_weighted_dropout_scaled": {
+        "precision": 0.7695167286245354,
+        "recall": 0.9627906976744186,
+        "f_score": 0.8553719008264463,
+        "accuracy": 0.7971014380455017,
+        "true_negative_rate": 0.5230769515037537
+    },
+    "model_5_Simple_CNN_augmentation_dropout_weighted_scaled": {
+        "precision": 0.8910891089108911,
+        "recall": 0.8372093023255814,
+        "f_score": 0.8633093525179856,
+        "accuracy": 0.834782600402832,
+        "true_negative_rate": 0.8307692408561707
+    },
+    "model_6_efficient_net": {
+        "precision": 0.8207171314741036,
+        "recall": 0.958139534883721,
+        "f_score": 0.8841201716738197,
+        "accuracy": 0.843478262424469,
+        "true_negative_rate": 0.6538461446762085
+    },
+    "model_7_efficient_net_dropout_augmentation": {
+        "precision": 0.8354430379746836,
+        "recall": 0.9209302325581395,
+        "f_score": 0.8761061946902655,
+        "accuracy": 0.8376811742782593,
+        "true_negative_rate": 0.699999988079071
+    },
+    "model_8_efficient_net_fine_tuned": {
+        "precision": 0.8761061946902655,
+        "recall": 0.9209302325581395,
+        "f_score": 0.8979591836734694,
+        "accuracy": 0.8695651888847351,
+        "true_negative_rate": 0.7846153974533081
+    },
+    "model_9_resnet": {
+        "precision": 0.7418181818181818,
+        "recall": 0.9488372093023256,
+        "f_score": 0.8326530612244898,
+        "accuracy": 0.7623188495635986,
+        "true_negative_rate": 0.45384615659713745
+    },
+    "model_10_mobilenetV2": {
+        "precision": 0.8879310344827587,
+        "recall": 0.958139534883721,
+        "f_score": 0.9217002237136466,
+        "accuracy": 0.8985507488250732,
+        "true_negative_rate": 0.800000011920929
+    },
+    "model_11_mobilenetV2_train_all": {
+        "precision": 0.6779661016949152,
+        "recall": 0.7441860465116279,
+        "f_score": 0.7095343680709535,
+        "accuracy": 0.6202898621559143,
+        "true_negative_rate": 0.4153846204280853
+    },
+    "ensemble_model": {
+        "precision": 0.9030837004405287,
+        "recall": 0.9534883720930233,
+        "f_score": 0.9276018099547512,
+        "accuracy": 0.9072463512420654,
+        "true_negative_rate": 0.8307692408561707
+    }
+}
